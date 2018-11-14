@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  overflow: hidden;
+  background-image: url(space2.jpg);
+}
+
+marquee {
+  position: absolute;
+  top:0;
+  bottom:100px;
+  left:50px;
+  right:50px;
+  transform: perspective(400px) rotateX(40deg);
+  width: 70%;
+  margin: auto;
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family:Century Gothic, Arial;
+}
+
+p {
+  font-size: 50px;
+  line-height: 70px;
+  text-align: justify;
+  color: white;
+  font-family:Century Gothic, Arial;
+}
+
+img {
+    display: block;
+    margin: 0 auto 150px auto;
+}
+
+.blue {
+  color: #216599;
+}
